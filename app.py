@@ -682,6 +682,12 @@ st.set_page_config(
 )
 
 st.title("🇺🇸 US Swing Trading Scanner")
+st.markdown(
+    """
+    [📊 Open NSE Stock Chart Application](https://rpandaw-stock-chart.streamlit.app/)
+    """,
+    unsafe_allow_html=False
+)
 st.caption("Ranks liquid US stocks for a potential 1–10 trading-day swing. "
            "This is a screening tool, not an automatic buy signal.")
 
